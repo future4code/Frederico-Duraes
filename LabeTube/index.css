@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    border: black;
+    font-size: initial;
+    grid-template-columns: initial;
+    height: 100%;
+}
+
+main {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: block;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.icone-busca {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+img {
+    width: 100%;
+}
