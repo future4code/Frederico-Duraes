@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+    display: block;
+    padding-right: 50px;
+    flex-grow: initial;
+  
+}
+
+header {
+    background-color: red;
+    margin-right: initial;
+    flex-direction: column;
+    width: 500px;
+    height: 50px;
+}
+
+main {
+    background-color: mediumvioletred;
+    margin-top: auto;
+    display: grid;
+    justify-content: space-between;
+    align-content: space-evenly;
+    align-items: stretch;
+    justify-items: end;
+}
+
+.page-flex-container {
+    background-color: mediumvioletred;
+ 
+    
+}
+
+.page-grid-container {
+    display: block;
+    background-color: #f2d0e0;
+
+}
+
+
+button {
+    border-top-width: 2px;
+
+}
+
+img {
+    width: 100px;
+    display: flex;
+    border-top: 10px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
